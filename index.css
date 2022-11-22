@@ -1,0 +1,264 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+
+h1{
+    color: #333333;
+    font-size: 64px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a{
+    color: #333333;
+}
+
+
+
+
+.navbar{
+    background-color: white;
+    color: black;
+}
+.navs{
+    font-size: 15px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+} 
+
+.logo{
+    text-align: center;
+    border: solid 4px black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#home{  
+    height: 100%;
+    width: 100%;
+    padding-top: 226px;
+    font-size: 95px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home-outer{
+    position: relative;
+    top: -100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.home-name{
+    text-align: center; 
+    font-weight: bolder; 
+    font-size: 112px;;
+}
+.name-btn{
+    aspect-ratio: 3/1;
+    background-color: #333333;
+    height: 62px;
+    border-radius: 50px;
+    top: 33px;
+    position: relative;
+}
+#vp{
+    color: white;
+}
+
+#about{ 
+    width: 100%;   
+    margin-bottom: 200px;
+}
+.about-name{
+    text-align: center;
+    padding-top: 100px;
+}
+  /* .brief{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 50px 150px;
+}
+.brief-inner{
+    margin: 10px;
+} */
+.img{  
+    height: 350px; 
+    object-fit: cover;
+  }
+  .imgg{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .intro{ 
+    font-size: 23px;
+    font-family: ui-sans-serif;
+    font-weight: 500;
+    text-align: initial;
+    padding: 20px; 
+  }
+
+
+
+#skills{
+    height:100%;
+    width:100%;
+}
+.skills-name{
+    padding-top: 100px;
+    text-align: center;   
+}
+.skills-namee{ 
+    text-align: center;   
+}
+
+.box{
+    margin-top: 125px;
+
+}
+.skill-layer{   
+    margin-top: 31px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.techdiv{
+    height: 165px; 
+    padding: 10px;
+    border: solid 2px black;
+    
+}
+.techdiv-title{
+    text-align: center;
+    letter-spacing: 3px;
+    height: 50px;
+    font-size: 20;
+    text-transform: uppercase;
+    color: aliceblue;
+    background-color: #333333;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.react{
+    height: 49px;
+    width: 51px;
+}
+
+ #resume{ 
+    width: 100%;
+}
+.resume-outer{
+    padding-top:100px;
+}
+.resume{
+    border: 2px solid black;
+    border-radius: 25%;
+}
+.resume-pdf{ 
+    justify-content: center;
+    padding-top: 20px; 
+}
+.resume-row{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btnn{
+    text-align: center;
+    color: white;
+    border: 4px solid #333333;
+    border-radius: 50px;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    margin: 0 25px;
+    padding: 10px;
+}
+#projects{
+    height: 100%;
+    width: 100%;
+}
+
+.projects-name{
+    padding-top:100px;
+}
+
+#contact{ 
+    width:100%; 
+}
+.contact-name{
+    padding-top: 80px;
+
+}
+.contact-outer{ 
+    margin: 45px;
+    padding: 0px 0px 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-details{
+    margin-bottom: 18px;
+    background-color: #ebebeb;
+    padding: 5px;
+}
+
+
+.outer-in{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.footer{
+    height: 92px;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+}
+.footer-links-a{
+    margin: 10px;
+    
+}
+.footer-name{
+    text-align: center;
+    font-size: 12px;
+    font-family: Merriweather;
+    font-weight: 600; 
+    
+}
+/* #740505 */
